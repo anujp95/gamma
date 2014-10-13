@@ -33,7 +33,7 @@ body {
 /*  --------- 2. structure  --------- */
 
 #wrapper {
-	width: 900px;
+	width: device-width;
 	font-size: 1.2em;
 	line-height: 1.5em;
 	background: #F9F9F9 url(background-gradient.gif) repeat-x;
@@ -51,7 +51,7 @@ body {
 		}
 		
 #MenuBarHorizontal {
-	width: 900px;
+	width: device-width;
 	margin: 0;
 	padding: 0;
 		}
@@ -62,7 +62,7 @@ body {
 		
 #divZero  {
 	float:left;
-	width:900px;
+	width:device-width;
 }
 
 P.arial   {
@@ -111,7 +111,8 @@ P.arial   {
 
 .clearFix:after {
     	content: "."; 
-    	display: block; 
+    	display: block;
+		width: device-width;
     	height: 0; 
     	clear: both; 
     	visibility: hidden;
